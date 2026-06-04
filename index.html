@@ -106,7 +106,7 @@ tr:last-child td{border-bottom:none}
 /* verdict */
 .verdict-card{border-left:4px solid var(--c-catchr);background:#FFFFFF;border-radius:0 var(--rad) var(--rad) 0;padding:1rem 1.25rem;margin-bottom:1.25rem;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
 .verdict-title{font-size:16px;font-weight:700;margin-bottom:.4rem}
-.verdict-body{font-size:14px;color:#374151;line-height:1.6}
+.verdict-body{font-size:14px;color:#374991;line-height:1.6}
 
 .sec{font-size:11px;font-weight:700;color:#6B7280;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.6rem;margin-top:1rem}
 .note{font-size:13px;color:#6B7280;margin-top:.5rem;font-style:italic;line-height:1.5}
@@ -176,7 +176,7 @@ tr:last-child td{border-bottom:none}
       <div class="metric-sub">3 plateformes · 10 comptes</div>
     </div>
     <div class="metric-card" style="border:2px solid var(--c-catchr);border-radius:var(--rad-sm)">
-      <div class="metric-val" style="color:var(--c-catchr)">165 $<span style="font-size:13px;font-weight:400">/mois</span></div>
+      <div class="metric-val" style="color:var(--c-catchr)">199 $<span style="font-size:13px;font-weight:400">/mois</span></div>
       <div class="metric-label">Catchr — Growth <span class="pill p-green">Notre plan</span></div>
       <div class="metric-sub">10 plateformes · 100 comptes</div>
     </div>
@@ -198,7 +198,7 @@ tr:last-child td{border-bottom:none}
       <span><span class="leg-dot" style="background:#1D9E75"></span>Catchr</span>
       <span><span class="leg-dot" style="background:#378ADD"></span>Windsor.ai</span>
     </div>
-    <div class="chart-wrap" style="height:190px"><canvas id="pricingChart" role="img" aria-label="Graphique comparaison tarifaire Catchr vs Windsor par plan">Catchr: Starter 20$, Growth 165$, Scale 415$ — Windsor: Basic 19$, Standard 99$, Plus 249$, Pro 499$</canvas></div>
+    <div class="chart-wrap" style="height:190px"><canvas id="pricingChart" role="img" aria-label="Graphique comparaison tarifaire Catchr vs Windsor par plan">Catchr: Starter 20$, Growth 199$, Scale 499$ — Windsor: Basic 19$, Standard 99$, Plus 249$, Pro 499$</canvas></div>
   </div>
 
   <div class="tbl-wrap">
@@ -206,8 +206,8 @@ tr:last-child td{border-bottom:none}
       <thead><tr><th>Critère</th><th class="td-c" style="color:var(--c-catchr)">Catchr</th><th class="td-w" style="color:var(--c-windsor)">Windsor.ai</th></tr></thead>
       <tbody>
         <tr><td class="td-feat">Plan d'entrée</td><td>20 $/mois (mensuel)</td><td>23 $/mois (mensuel) · 19 $/mois (annuel)</td></tr>
-        <tr><td class="td-feat">Plan intermédiaire</td><td>165 $/mois — Growth <span class="pill p-green">Notre choix</span></td><td>99 $/mois — Standard</td></tr>
-        <tr><td class="td-feat">Plan avancé</td><td>415 $/mois — Scale</td><td>249–499 $/mois — Plus / Pro</td></tr>
+        <tr><td class="td-feat">Plan intermédiaire</td><td>199 $/mois — Growth <span class="pill p-green">Notre choix</span></td><td>99 $/mois — Standard</td></tr>
+        <tr><td class="td-feat">Plan avancé</td><td>499 $/mois — Scale</td><td>249–499 $/mois — Plus / Pro</td></tr>
         <tr><td class="td-feat">Plan gratuit</td><td><span class="no">✗ Essai 14 jours seulement</span></td><td><span class="ok">✓ Forever free (1 source)</span></td></tr>
         <tr><td class="td-feat">Utilisateurs</td><td><span class="ok">✓ Illimités — tous plans</span></td><td><span class="ok">✓ Illimités — tous plans</span></td></tr>
         <tr><td class="td-feat">Connecteurs inclus</td><td><span class="ok">✓ Tous plans</span></td><td><span class="ok">✓ Tous plans</span></td></tr>
@@ -446,7 +446,7 @@ new Chart(document.getElementById('pricingChart'),{
   data:{
     labels:['Starter / Basic','Growth / Standard','Scale / Plus','— / Pro'],
     datasets:[
-      {label:'Catchr',data:[20,165,415,null],backgroundColor:'rgba(29,158,117,0.75)',borderRadius:4},
+      {label:'Catchr',data:[20,199,499,null],backgroundColor:'rgba(29,158,117,0.75)',borderRadius:4},
       {label:'Windsor.ai',data:[19,99,249,499],backgroundColor:'rgba(55,138,221,0.75)',borderRadius:4}
     ]
   },
