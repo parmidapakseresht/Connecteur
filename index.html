@@ -192,7 +192,7 @@ tr:last-child td{border-bottom:none}
         <tr><td class="td-feat">Plan gratuit</td><td><span class="no">✗ Essai 14 jours seulement</span></td><td><span class="ok">✓ Forever free (1 source)</span></td></tr>
         <tr><td class="td-feat">Utilisateurs</td><td><span class="ok">✓ Illimités — tous plans</span></td><td><span class="ok">✓ Illimités — tous plans</span></td></tr>
         <tr><td class="td-feat">Connecteurs inclus</td><td><span class="ok">✓ Tous plans</span></td><td><span class="ok">✓ Tous plans</span></td></tr>
-        <tr><td class="td-feat">Modèle de facturation</td><td>Plateformes + comptes connectés</td><td>Sources + comptes + lignes/mois</td></tr>
+        <tr><td class="td-feat">Modèle de facturation</td><td>Plateformes + comptes connectés</td><td>Plateformes + comptes connectés + lignes/mois</td></tr>
         <tr><td class="td-feat">Risque dépassement</td><td><span class="pill p-green">Faible — upgrade de plan</span></td><td><span class="pill p-amber">+20 $/1M lignes supplémentaires</span></td></tr>
         <tr><td class="td-feat">vs Supermetrics</td><td><span class="pill p-green">~90% moins cher</span></td><td><span class="pill p-green">~90% moins cher</span></td></tr>
       </tbody>
@@ -227,6 +227,8 @@ tr:last-child td{border-bottom:none}
         <tr><td class="td-feat"><strong>Pinterest Ads</strong></td><td><span class="ok">✓ Natif</span></td><td><span class="ok">✓ Natif</span></td></tr>
         <tr><td class="td-feat"><strong>Salesforce</strong></td><td><span class="warn">⚠ Non confirmé — à vérifier</span></td><td><span class="ok">✓ Natif</span></td></tr>
         <tr><td class="td-feat"><strong>Microsoft Clarity</strong></td><td><span class="no">✗ Non disponible</span></td><td><span class="ok">✓ Natif</span></td></tr>
+        <tr><td class="td-feat"><strong>Adobe Analytics</strong></td><td><span class="no">✗ Non disponible</span></td><td><span class="ok">✓ Natif</span></td></tr>
+
       </tbody>
     </table>
   </div>
@@ -263,7 +265,7 @@ tr:last-child td{border-bottom:none}
         <tr><td class="td-feat">Amazon S3 / GCS / Azure Blob</td><td><span class="ok">✓</span></td><td><span class="ok">✓</span></td></tr>
         <tr><td class="td-feat">PostgreSQL / MySQL</td><td><span class="ok">✓</span></td><td><span class="ok">✓</span></td></tr>
         <tr><td class="td-feat">API JSON / CSV</td><td><span class="ok">✓</span></td><td><span class="ok">✓</span></td></tr>
-        <tr><td class="td-feat">MCP</td><td><span class="ok">✓ <code> https://api.catchr.io/mcp </code></span></td><td><span class="ok">✓ https://mcp.windsor.ai/</span></td></tr>
+        <tr><td class="td-feat">MCP</td><td><span class="ok">✓ <code> https://api.catchr.io/mcp </code></span></td><td><span class="ok">✓ <code>  https://mcp.windsor.ai/ </code> </span></td></tr>
         <tr><td class="td-feat">Entrepôt inclus dès l'entrée</td><td><span class="ok">✓ Dès Starter</span></td><td><span class="ok">✓ Dès Basic</span></td></tr>
       </tbody>
     </table>
@@ -276,19 +278,18 @@ tr:last-child td{border-bottom:none}
     <table>
       <thead><tr><th>Fonctionnalité</th><th class="td-c" style="color:var(--c-catchr)">Catchr</th><th class="td-w" style="color:var(--c-windsor)">Windsor.ai</th></tr></thead>
       <tbody>
-        <tr><td class="td-feat">Configuration initiale</td><td><span class="pill p-green">Guidée, 1 clic</span></td><td><span class="pill p-amber">Plus complexe que Catchr</span></td></tr>
+        <tr><td class="td-feat">Configuration initiale</td><td><span class="pill p-green">Guidée, 1 clic</span></td><td><span class="pill p-green">Plus de flexibilité</span></td></tr>
         <tr><td class="td-feat">100% no-code</td><td><span class="ok">✓ Oui</span></td><td><span class="ok">✓ Drag-and-drop</span></td></tr>
         <tr><td class="td-feat">Rafraîchissement données</td><td><span class="ok">✓ Planifié + temps réel</span></td><td>Quotidien (Basic/Standard) · Horaire (Pro uniquement)</td></tr>
         <tr><td class="td-feat">Templates Looker Studio</td><td><span class="ok">✓ 100+ templates gratuits</span></td><td><span class="ok">✓ 60+ templates cross-canal</span></td></tr>
         <tr><td class="td-feat">Fusion multi-sources</td><td><span class="ok">✓ Inclus</span></td><td><span class="ok">✓ Schéma unifié</span></td></tr>
         <tr><td class="td-feat">Modélisation d'attribution</td><td><span class="no">✗ Absent</span></td><td><span class="ok">✓ First, last, linéaire, time-decay, Markov</span></td></tr>
-        <tr><td class="td-feat">Alertes / anomalies</td><td><span class="ok">✓ Natif</span></td><td><span class="warn">⚠ Information limitée</span></td></tr>
-        <tr><td class="td-feat">MCP (IA)</td><td><span class="ok">✓ <code>api.catchr.io/mcp</code></span></td><td><span class="ok">✓ https://mcp.windsor.ai/ </span></td></tr>
-        <tr><td class="td-feat">Historique (backfill)</td><td><span class="ok">✓</span></td><td><span class="ok">✓ Tous plans</span></td></tr>
+        <tr><td class="td-feat">Alertes</td><td><span class="ok">✓ Natif (Custom sur le plan Scale)</span></td><td><span class="ok">✓ Technique</span></td></tr>
+        <tr><td class="td-feat">MCP (IA)</td><td><span class="ok">✓ <code>api.catchr.io/mcp</code></span></td><td><span class="ok">✓ <code>https://mcp.windsor.ai/</code> </span></td></tr>
+        <tr><td class="td-feat">Historique (backfill)</td><td><span class="ok">✓ Tous plans</span></td><td><span class="ok">✓ Tous p<code>lans</span></td></tr>
         <tr><td class="td-feat">Reporting agence / client</td><td><span class="ok">✓ Conçu pour les agences</span></td><td><span class="warn">⚠ Pas un outil de reporting natif</span></td></tr>
         <tr><td class="td-feat">RGPD <span class="pill p-gray">¹</span></td><td><span class="ok">✓ Entreprise française, données non stockées</span></td><td><span class="warn">⚠ Politique à vérifier selon hébergement</span></td></tr>
         <tr><td class="td-feat">Langue du support</td><td><span class="pill p-purple">🇫🇷 Français + Anglais · 24/7</span></td><td><span class="pill p-blue">Anglais · Dédié sur Pro</span></td></tr>
-        <tr><td class="td-feat">Note G2 (2026)</td><td>Élevée (profil managé)</td><td>4,6 / 5 — 74 avis</td></tr>
       </tbody>
     </table>
   </div>
@@ -394,7 +395,7 @@ tr:last-child td{border-bottom:none}
         <tr><td class="td-feat">Support (langue + qualité)</td><td><span class="ok">Catchr ✓</span></td><td>Entreprise française, disponible 24/7 en FR/EN</td></tr>
         <tr><td class="td-feat">MCP (IA)</td><td>Égalité ✓</td><td>Les deux outils connectent nos données à Onyx</td></tr>
         <tr><td class="td-feat">Reporting agence / client</td><td><span class="ok">Catchr ✓</span></td><td>Conçu pour les agences, dashboards clients illimités</td></tr>
-        <tr><td class="td-feat">Alertes / anomalies</td><td><span class="ok">Catchr ✓</span></td><td>Surveillance automatique des campagnes incluse</td></tr>
+        <tr><td class="td-feat">Alertes</td><td><span class="ok">Catchr ✓</span></td><td>Surveillance automatique des campagnes incluse</td></tr>
         <tr><td class="td-feat">RGPD</td><td><span class="ok">Catchr ✓</span></td><td>Entreprise FR, données non stockées sur leurs serveurs</td></tr>
         <tr><td class="td-feat">Volume connecteurs</td><td><span style="color:var(--c-windsor)">Windsor ✓</span></td><td>4× plus de sources si le stack CRM/Clarity grandit</td></tr>
         <tr><td class="td-feat">Modélisation attribution</td><td><span style="color:var(--c-windsor)">Windsor ✓</span></td><td>Markov + multi-touch natif — absent sur Catchr</td></tr>
